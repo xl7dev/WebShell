@@ -4,6 +4,7 @@ This is a webshell open source project https://github.com/xl7dev/WebShell
 ## Category 
 
 - Aar
+- Ascx
 - Ashx
 - Asmx
 - Asp
@@ -11,21 +12,23 @@ This is a webshell open source project https://github.com/xl7dev/WebShell
 - C
 - Cfm
 - Cgi
+- Javascript
 - Jsp
 - Jspx
 - Mysql
 - Nginx
 - Php
 - Pl
-- UDP_backdoor
+- Udp
 - icmp
 - jar
+- nodejs
 - python
 - ruby
 - servlet
-- sh
-- war
-- xml
+- Sh
+- War
+- Xml
 - Other
 
-Author: xl7dev  From: Knownsec
+Author: 小乐天  From: Knownsec
