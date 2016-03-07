@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>jsp-yzmm</title>
+</head>
+<style>
+.main{width:980px;height:600px;margin:0 auto;}
+.url{width:300px;}
+.fn{width:80px;}
+.content{width:80%;height:60%;}
+</style>
+<script>
+  function upload(){
+    var url = document.getElementById('url').value,
+      content = document.getElementById('content').value,
+      fileName = document.getElementById('fn').value,
+      form = document.getElementById('fm');
+    if(url.length == 0){
+      alert("Url not allowd empty!");
+      return ;
+    }
+    if(content.length == 0){
+      alert("Content not allowd empty!");
+      return ;
+    }
+    if(fileName.length == 0){
+      alert("FileName not allowd empty!");
+      return ;
+    }
+    form.action = url;
+    form.submit();
+  }
+</script>
+<body>
+<div class="main">
+  <form id="fm" method="post">  
+    URL:<input type="text" value="http://localhost/Struts2/css3.jsp" class="url" id="url" />&nbsp;&nbsp;
+    FileName:<input type="text" name="f" value="css.jsp" class="fn" id="fn" />&nbsp;&nbsp;
+    <a href="javascript:upload();">Upload</a><br/>
+    <textarea id="content" class="content" name="t" ></textarea>
+  </form>
+</div>
+</body>
+</html>

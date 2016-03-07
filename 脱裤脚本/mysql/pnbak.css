@@ -1,0 +1,503 @@
+body, td{
+	margin: 0px;
+	font: 12px Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+.smalltxt {
+	font: 12px Arial, Helvetica, sans-serif !important;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+html, body {
+	scrollbar-face-color: #15A3D9;
+	scrollbar-highlight-color: #555555;
+	scrollbar-3dlight-color: #555555;
+	scrollbar-darkshadow-color: #60B7DE;
+	scrollbar-shadow-color: #555555;
+	scrollbar-arrow-color: #FFFFFF;
+	scrollbar-track-color: #A4D6EA;
+	background: #dae6f3;
+}
+
+input, textarea, select {
+	margin: 5px 0px;
+	border: 1px solid #6699CC;
+	font: 12px Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+	color: #006699;
+	background: #FFFFFF;
+}
+form {
+	margin: 0px;
+}
+textarea {
+	overflow: auto;
+}
+.checkbox, .radio {
+	border: 0px;
+	background: none;
+	vertical-align: middle !important;
+	vertical-align: baseline;
+	margin-bottom: 5px !important;
+	margin-bottom: 0;
+	height: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: #555555
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* ====================================================== */
+/* ===========logo============== */
+
+.logo {
+	width: 168px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.logoimg {
+	display: block;
+	width: 33px;
+	height: 33px;
+	float: left;
+	padding-right: 8px;
+}
+
+.editiontext {
+	padding-top: 4px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* ====================================================== */
+/* ===========主菜单标签============== */
+
+.topmenubg {
+	background: url(bg_header.gif) repeat-x;
+}
+.topmenu {
+	height: 38px;
+	float: left;
+	min-width: 600px;
+	width: 680px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #555555;
+	margin-top: 24px;
+}
+.topmenu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.topmenu li {
+	float: left;
+	border: solid 1px #43809C;
+	border-bottom: none;
+	list-style-type: none;
+	margin-right: 1px;
+	margin-top: 2px;
+}
+
+.topmenu span {
+	display: block;
+	float: left;
+	padding: 0 10px;
+	background: url(bg_menu2.gif);
+	height: 25px;
+	line-height: 25px;
+	border: solid 1px #FFFFFF;
+	border-bottom: none;
+	color: #555555;
+}
+
+/* ===========当前链接标签============== */
+
+#menuon {
+	margin-top: 0px;
+	height: 30px;
+	line-height: 30px;
+	border: solid 1px #525C3D;
+	border-bottom: none;
+	background: url(bg_menu.gif);
+}
+
+#menuon span {
+	padding-top: 1px;
+	background: url(bg_menu.gif);
+	border: solid 1px #FFFFFF;
+	height: 27px;
+	border-bottom: none;
+}
+#menuon span a {
+	color: #003366;
+}
+
+/* ====================================================== */
+/* ===========左侧菜单============== */
+
+.leftmenulist {
+	margin: 2px;
+	border: 1px solid #525C3D;
+	width: 134px;
+}
+
+.leftmenutext td {
+	background: url(bg_list.gif) repeat-x;
+	line-height: 16px;
+	height: 31px !important;
+	> height: 30px !important;
+	height: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-left: 4px;
+	border-bottom: 1px solid #BBDCF1;
+}
+
+.leftmenutext a {
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.leftmenutd td {
+	background: #FFFFFF;
+}
+
+.leftmenuinfo {
+	margin-left: 8px;
+	margin-bottom: 10px;
+	width: 116px;
+}
+
+.leftmenuinfo td{
+	height: 1.8em;
+	line-height: 1.6em;
+	border-bottom: solid 1px #A3CEEB;
+	text-indent: 8px;
+}
+
+/* ====================================================== */
+/* ===========主内容显示表格============== */
+
+.guide td {
+	border: 1px solid #1598CB;
+	background-color: #FBFFE1;
+	line-height: 1.2em;
+	height: 28px;
+	text-indent: 20px;
+	color: #FF6600;
+}
+.guide td a{
+	color: #FF6600;
+}
+
+.tableborder {
+	outline: 1px solid #525C3D;
+	border: 0px !important;
+	> border: 1px solid #525C3D !important;
+	border: 1px solid #525C3D;
+	empty-cells: show;
+	border-collapse: separate !important;
+	> border-collapse: collapse !important;
+	border-collapse: collapse;
+}
+
+.tableborder td {
+	border-bottom: 1px solid #BBDCF1;
+	line-height: 1.5em;
+	height: 2em;
+	padding: 4px;
+	background: #FFFFFF;
+}
+.tableborder td ul, .tableborder td ul li {
+	line-height: 22px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.tableborder td img {
+	margin-top: 8px;
+}
+.tableborder td .smalltxt {
+	line-height: 20px;
+}
+.sub td.altbg1 {
+	padding-left: 1.5em;
+}
+.category td {
+	color: #333333;
+	background-color: #F0F0F0;
+}
+td.altbg1, .altbg1 td {
+	background: #F1F5F8;
+}
+td.altbg2, .altbg2 td {
+	background: #FFFFFF;
+}
+.header td {
+	background-color:#158dba;
+	line-height: 16px;
+	height: 31px !important;
+	> height: 30px !important;
+	height: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-bottom: 1px solid #525C3D;
+	padding: 0px 8px;
+}
+
+.jswizard tr {
+	border-top: 1px solid #BBDCF1;
+	border-left: 1px solid #BBDCF1;
+}
+
+.jswizard td {
+	border: 1px solid #BBDCF1;
+	border: 1px solid #BBDCF1;
+	padding: 2px;
+}
+
+.header a{
+	color: #FFFFFF;
+}
+
+/* ====================================================== */
+/* ===========按钮式样============== */
+
+.button {
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0 6px;
+	color: #000;
+	background: url(bg_button.gif) repeat-x;
+
+	/*for Mozilla*/
+ 	outline: 1px solid #1590BE ;
+	border: 1px solid #FFFFFF !important;
+	height: 24px !important;
+	line-height: 22px !important;
+
+	/*for IE7*/
+	> border: 1px solid #1590BE !important;
+	> height: 26px !important;
+	> line-height: 20px !important;
+
+	/*for IE*/
+	border: 1px solid #1590BE ;
+	height: 26px;
+	line-height: 20px;
+}
+
+/* ====================================================== */
+/* ===========footer============== */
+
+.footer {
+	height: 20px;
+	margin: 20px;
+	text-align: center;
+}
+
+/* ====================================================== */
+/* ==========page分页=========== */
+
+.pages {
+	margin: 10px 0px;
+	height: 26px;
+	line-height: 24px;
+	color: #999;
+	overflow: hidden;
+}
+.pages a, .pages strong, .pages em {
+	float: left;
+	padding: 0 5px;
+	background: #F7FAFA;
+	border: 1px solid #6699CC;
+	border-left: 0;
+}
+.pages strong {
+	font-weight: bold;
+	color: #6699CC;
+	background: #E8EDF2;
+}
+.pages em {
+	border: 1px solid #6699CC;
+}
+.pages a.prev, .pages a.next {
+	line-height: 22px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #1F90CF;
+	padding: 0px 15px 2px;
+}
+.pages kbd {
+	float: left;
+	padding: 0 8px;
+	margin: 0;
+}
+.pages input {
+	margin: 0px;
+	margin-left: 0.5em;
+	height: 22px !important;
+	> height: 21px !important;
+	height: 21px;
+	line-height: 22px;
+}
+
+
+/* ====================================================== */
+/* ==========日历=========== */
+#calendar {
+	BORDER-RIGHT: #9db3c5 1px solid; BORDER-TOP: #9db3c5 1px solid; BACKGROUND: url(../../images/default/headbox.gif) #f5fafe repeat-x 0px 0px; MARGIN-BOTTOM: 0.8em; BORDER-LEFT: #9db3c5 1px solid; BORDER-BOTTOM: #9db3c5 1px solid
+}
+#calendar TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+#calendar_week TD {
+	LINE-HEIGHT: 2em; BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 2em
+}
+#hourminute TD {
+	PADDING-RIGHT: 2px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.calendar_expire {
+	FONT-WEIGHT: normal; COLOR: #666
+}
+.calendar_expire A:link {
+	FONT-WEIGHT: normal; COLOR: #666
+}
+.calendar_expire A:visited {
+	FONT-WEIGHT: normal; COLOR: #666
+}
+.calendar_default {
+	COLOR: #069
+}
+.calendar_default A:link {
+	COLOR: #069
+}
+.calendar_default A:visited {
+	COLOR: #069
+}
+.calendar_checked {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+.calendar_checked A:link {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+.calendar_checked A:visited {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+TD.calendar_checked {
+	BACKGROUND: #ddd
+}
+SPAN.calendar_checked {
+	BACKGROUND: #ddd
+}
+.calendar_today {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+.calendar_today A:link {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+.calendar_today A:visited {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+#calendar_header TD {
+	FONT-WEIGHT: normal; WIDTH: 30px; BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 20px
+}
+#calendar_year {
+	DISPLAY: none; Z-INDEX: 10; BACKGROUND: #f5fafe; LINE-HEIGHT: 130%; POSITION: absolute
+}
+#calendar_year .col {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 4px; BACKGROUND: #f5fafe; FLOAT: left; PADDING-BOTTOM: 4px; MARGIN-LEFT: 1px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 1px solid
+}
+#calendar_month {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #ddd 1px solid; DISPLAY: none; PADDING-LEFT: 4px; Z-INDEX: 11; BACKGROUND: #f5fafe; PADDING-BOTTOM: 4px; BORDER-LEFT: #ddd 1px solid; LINE-HEIGHT: 130%; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 1px solid; POSITION: absolute
+}
+
+/* ====================================================== */
+/* ==========其他=========== */
+
+.formulaeditor {
+	margin: 5px 0px;
+	width: 90%;
+	border: 1px solid #6699CC;
+}
+
+.formulaeditor div{
+	padding: 2px;
+}
+
+.formulaeditor textarea{
+	border: 0px;
+	border-top: 1px solid #6699CC;
+	margin: 0px;
+	padding: 0px;
+}
+
+.formulaeditor a {
+	border: 1px solid #6699CC;
+	padding: 2px;
+	background: #FFFFFF;
+	line-height: 25px;
+}
+
+.process {
+	width: 400px;
+	height: 40px;
+	background: url(process.gif) repeat-x;
+	text-align:left;
+	border: 1px solid #000000;
+}
+
+.processbg {
+	width: 402px;
+	height: 40px;
+	line-height:
+	40px;text-align:center;
+	color:#fff;
+	background: url(processbg.gif) -0% 0 no-repeat;
+}
+.logintable {
+	border: 1px solid #296C89;
+	background: #159BD0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logintable td{
+	color: #FFFFFF;
+}
+.loginheader td {
+	height: 40px;
+	background: url(login_header.gif) repeat-x;
+}
+td.line1 {
+	border-bottom: 1px solid #3C8DB1;
+	}
+td.line2 {
+	border-top: 1px solid #81CDEF;
+	}
+.button {
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0 6px;
+	color: #000000;
+	background: #bedeff url(bg_button.gif) repeat-x;
+
+	/*for Mozilla*/
+ 	outline: 1px solid #296c89 ;
+	border: 1px solid #FFFFFF !important;
+	height: 24px !important;
+	line-height: 22px !important;
+
+	/*for IE7*/
+	> border: 1px solid #296C89 !important;
+	> height: 26px !important;
+	> line-height: 20px !important;
+
+	/*for IE*/
+	border: 1px solid #296C89 ;
+	height: 26px;
+	line-height: 20px;
+}
