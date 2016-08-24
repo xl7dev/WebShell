@@ -1,0 +1,23 @@
+Source: sidedoor
+Section: net
+Priority: optional
+Maintainer: Dara Adib <daradib@ocf.berkeley.edu>
+Build-Depends: debhelper (>= 9), dh-systemd
+Standards-Version: 3.9.6
+Homepage: https://github.com/daradib/sidedoor
+Vcs-Git: https://github.com/daradib/sidedoor.git
+Vcs-Browser: https://github.com/daradib/sidedoor
+
+Package: sidedoor
+Architecture: all
+Depends: ${misc:Depends}, adduser, systemd | upstart, autossh
+Recommends: openssh-server
+Description: Backdoor using a reverse tunnel
+ sidedoor maintains a reverse tunnel to provide a backdoor.
+ sidedoor can be used to remotely control a device behind a NAT.
+ .
+ To use, set up SSH keys to
+ (1) access a remote server, and,
+ (2) if tunneling SSH, control access to the local sidedoor user.
+ .
+ The sidedoor user has full root access configured in /etc/sudoers.d.

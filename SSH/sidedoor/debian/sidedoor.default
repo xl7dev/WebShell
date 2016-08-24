@@ -1,0 +1,11 @@
+# Configuration for sidedoor service
+
+# Remote SSH server to connect to, i.e., [user@]hostname.
+REMOTE_SERVER=
+
+# Port on the remote server to tunnel to local port.
+TUNNEL_PORT=
+
+# Local port to provide access to.
+# If unset, looks for port in /etc/ssh/sshd_config.
+#LOCAL_PORT=22

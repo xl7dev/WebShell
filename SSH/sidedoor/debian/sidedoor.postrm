@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = remove ]; then
+  rm -f /etc/sudoers.d/sidedoor
+fi
+
+if [ "$1" = purge ]; then
+  deluser --quiet --system sidedoor || true
+  rm -rf /var/lib/sidedoor
+fi

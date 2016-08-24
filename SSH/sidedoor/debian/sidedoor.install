@@ -1,0 +1,3 @@
+config    etc/sidedoor
+sudoers   etc/sudoers.d
+sidedoor  usr/bin

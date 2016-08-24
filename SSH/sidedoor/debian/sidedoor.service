@@ -1,0 +1,12 @@
+[Unit]
+Description=maintain reverse tunnel
+After=local-fs.target network.target
+
+[Service]
+User=sidedoor
+EnvironmentFile=-/etc/default/sidedoor
+ExecStart=/usr/bin/sidedoor "$REMOTE_SERVER" "$TUNNEL_PORT" "$LOCAL_PORT"
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

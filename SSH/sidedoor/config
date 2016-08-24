@@ -1,0 +1,18 @@
+Host *
+  # Tunneled traffic (e.g., SSH) is encrypted and thus not compressible.
+  Compression no
+
+  # Disable password authentication.
+  BatchMode yes
+
+  # Terminate if unable to set up port forwarding.
+  ExitOnForwardFailure yes
+
+  # Enable SSH keepalives.
+  ServerAliveInterval 30
+
+  # Disconnect after unresponsive SSH keepalives.
+  ServerAliveCountMax 2
+
+  # Enable TCP keepalives.
+  TCPKeepAlive yes

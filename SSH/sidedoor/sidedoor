@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -eu
+
+if [ $# -ne 2 -a $# -ne 3 ]; then
+  echo "Usage: $(basename $0) REMOTE_SERVER TUNNEL_PORT [LOCAL_PORT]"
+  echo
+  echo "Maintain a reverse SSH tunnel."
+  exit 65
+fi
+
+REMOTE_SERVER="$1"
+TUNNEL_PORT="$2"
+LOCAL_PORT="${3:-$(awk '/^Port/ {print $2}' /etc/ssh/sshd_config)}"
+
+exec autossh -M 0 -NT \
+  -R "${TUNNEL_PORT}:localhost:${LOCAL_PORT}" \
+  "$REMOTE_SERVER"
