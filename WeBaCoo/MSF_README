@@ -1,0 +1,15 @@
+INTRO
+=====
+WeBaCoo metasploit module was created in order to provide a quick communication
+channel with the compromised server, using the framework's flexible features.
+Using this exploit module, you do not need to run WeBaCoo under terminal mode
+to establish a remote shell with the server.
+
+MSF PAYLOADS
+============
+The module's available payload list, includes those capable to run under WeBaCoo
+communication model without any further customizations. Although, feel free to
+customize the other's too.
+In case you need a more feature-rich payload (like meterpreter) you can run
+WeBaCoo under terminal mode and use the 'Upload' extension module, to upload
+the generated payload to the server and interract with the framework.

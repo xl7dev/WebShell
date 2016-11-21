@@ -1,0 +1,62 @@
+Version 0.2.3 [11 March 2012]
+
++ Single command execution mode (-e flag)
++ Multi HTTP methods suppot (-m flag)
++ Execute external CMDs inside main console
++ Download extension module
++ Stealth extension module
++ Fix color print bug under Windows OS
+
+
+Version 0.2.2 [29 January 2012]
+
++ Executed command logging to external file
++ Postgres CLI extension module
++ Upload extension module
+
+
+Version 0.2.1 [23 January 2012]
+
++ MySQL CLI support
++ Support for extension modules
+
+
+Version 0.2 [19 December 2011]
+
++ Built in Tor proxy support.
++ New random delimiter string for each request.
++ Newer version check & update.
++ Enhanced error handling.
+
+
+Version 0.1.4 [17 December 2011]
+
++ Insert dummy spaces at base64 obfuscated code, to bypass
+  statistical detection methdos.
++ Added initial user ID print info.
++ Added check for disabled PHP system functions.
+
+
+Version 0.1.3 [13 December 2011]
+
++ Protect base64 decoder function in backdoor code.
++ Fix URI escaped character bug.
++ Fix server's response empty HTTP data bug.
+
+
+Version 0.1.2 [6 December 2011]
+
++ Add verbose support with 3 levels to print out requests/responses
+  HTTP headers or/and data.
++ Add support for HTTP proxies with basic authentication.
++ Fix minor bug at output buffer.
+
+
+Version 0.1.1 [30 November 2011]
+
++ Add 4xx HTTP status error code handling.
+
+
+Version 0.1 [29 November 2011]
+
++ Initial release

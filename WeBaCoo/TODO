@@ -1,0 +1,14 @@
+Things TODO for Next Releases:
+
+
+* Implement a rich feature terminal emulator.
+
++ Enhance features when running under Windows OS.
+
+* Cluster mode support for multi targets.
+
+* Expand extension module library.
+
+* Target enumeration functions.
+
+* Support for other web frameworks.
