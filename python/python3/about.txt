@@ -1,0 +1,19 @@
+     
+\ \ / /__  _   _ _ __ (_) ___  _ __   ___|  _ \  
+ \ V / _ \| | | | '_ \| |/ _ \| '_ \ / _ \ |_) | 
+  | | (_) | |_| | | | | | (_) | | | |  __/  _ <  
+  |_|\___/ \__,_|_| |_|_|\___/|_| |_|\___|_| \_\ 
+
+
+Younioner Version 1.1 - created by Ayoub Ouakkaha. 
+the ide behind the project is to make a simple tool let you take controle over your devices.
+up to now Younioner project is just a reverse shell, but i hope i could add this features in incoming release
+     * G.U.I support : yes i plan to make the project support  graphical user interface..
+     * Key Capture: yes younioner will include the key capture feature probably this feature will work only in windows.. but we will sya :) 
+     * Screen Capture 
+     * Executable Client: you'll have the option to  genrate either client.py or client.exe
+
+please help us to develope the next version of Younioner 1.2
+for more contact me on :
+ayoub.ouakkaha@gmail.com
+thanks in advance.
