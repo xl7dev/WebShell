@@ -1,5 +1,4 @@
-# WebShell
-This is a webshell open source project https://github.com/xl7dev/WebShell
+#web shell
 
 ## Category 
 - Aar
@@ -41,4 +40,3 @@ This is a webshell open source project https://github.com/xl7dev/WebShell
 - xml
 - xssshell
 
-Author: 小乐天
